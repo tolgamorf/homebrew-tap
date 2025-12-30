@@ -13,16 +13,11 @@ class Env2opCli < Formula
   end
 
   def caveats
-    return if which("op")
-
     <<~EOS
-      env2op-cli requires the 1Password CLI to be installed.
+      env2op-cli requires the 1Password CLI.
 
-      To install it, run:
+      Install it with:
         brew install 1password-cli
-
-      Then sign in with:
-        op signin
     EOS
   end
 
