@@ -1,4 +1,4 @@
-class Env2opCliAT0_2_0 < Formula
+class Env2opCliAT020 < Formula
   desc "Push .env files to 1Password and pull them back"
   homepage "https://github.com/tolgamorf/env2op-cli"
   url "https://registry.npmjs.org/@tolgamorf/env2op-cli/-/env2op-cli-0.2.0.tgz"
